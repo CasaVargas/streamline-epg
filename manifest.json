@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "updated": "2026-08-02T00:00:00Z",
+  "sources": [
+    {
+      "id": "iptv-cat-global",
+      "url": "https://epg.iptv.cat/epg.xml",
+      "regions": ["us"],
+      "kind": "national",
+      "idConvention": "iptv-org",
+      "forwardSpanDays": 3,
+      "approxChannels": 6121,
+      "sizeMB": 180,
+      "health": "ok"
+    },
+    {
+      "id": "epgshare01-us2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+      "regions": ["us"],
+      "kind": "national",
+      "idConvention": "dotted-name",
+      "forwardSpanDays": 5,
+      "approxChannels": 772,
+      "sizeMB": 6.4,
+      "health": "ok"
+    },
+    {
+      "id": "epgshare01-us-locals",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+      "regions": ["us"],
+      "kind": "locals",
+      "idConvention": "dotted-name",
+      "forwardSpanDays": 5,
+      "approxChannels": 0,
+      "sizeMB": 0,
+      "health": "ok"
+    }
+  ]
+}
